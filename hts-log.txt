@@ -1,13 +1,26 @@
-HTTrack3.48-22+htsswf+htsjava launched on Tue, 30 Aug 2016 21:40:18 at http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/ -O1 "C:\Users\tranl\Documents\MyWebsites\edu website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-21:47:14	Error: 	"Not Found" (404) at link www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/icons/icon-world-whitesvg.svg (from www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/icons/icon-world-white.svg)
-21:47:14	Error: 	"Not Found" (404) at link www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/icons/icon-compare2-white.svg (from www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/icons/icon-compare-white.svg)
-
-HTTrack Website Copier/3.48-22 mirror complete in 6 minutes 56 seconds : 182 links scanned, 179 files written (11412509 bytes overall) [10144153 bytes received at 24384 bytes/sec], 1477961 bytes transferred using HTTP compression in 23 files, ratio 10%, 3.2 requests per connection
-(2 errors, 0 warnings, 0 messages)
+HTTrack3.48-22+htsswf+htsjava launched on Tue, 30 Aug 2016 21:40:18 at http://sontl/themes/education/html/demo/e-learning/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://sontl/themes/education/html/demo/e-learning/ -O1 "C:\Users\tranl\Documents\MyWebsites\edu website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+21:47:14	Error: 	"Not Found" (404) at link sontl/themes/education/html/demo/e-learning/img/icons/icon-world-whitesvg.svg (from sontl/themes/education/html/demo/e-learning/img/icons/icon-world-white.svg)
+
+21:47:14	Error: 	"Not Found" (404) at link sontl/themes/education/html/demo/e-learning/img/icons/icon-compare2-white.svg (from sontl/themes/education/html/demo/e-learning/img/icons/icon-compare-white.svg)
+
+
+
+HTTrack Website Copier/3.48-22 mirror complete in 6 minutes 56 seconds : 182 links scanned, 179 files written (11412509 bytes overall) [10144153 bytes received at 24384 bytes/sec], 1477961 bytes transferred using HTTP compression in 23 files, ratio 10%, 3.2 requests per connection
+
+(2 errors, 0 warnings, 0 messages)
+
