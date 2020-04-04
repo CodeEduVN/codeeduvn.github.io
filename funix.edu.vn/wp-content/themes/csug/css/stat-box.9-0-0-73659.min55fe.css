@@ -1,0 +1,57 @@
+.stat-container{font-weight:600;margin-bottom:1.5rem;text-align:center}
+.stat-container .stat-callout{background-position:center center;background-repeat:no-repeat;background-size:contain;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:-ms-flex;display:flex;-webkit-justify-content:center;justify-content:center;min-height:150px}
+.stat-container .callout-text{-webkit-align-items:center;align-items:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:-ms-flex;display:flex;line-height:100%;min-height:150px}
+.stat-container .ddHidden{display:none}
+@media(min-width:768px){}
+#statBox-font-990000 a{color:#900;border-bottom:1px solid #900}
+#statBox-font-990000 a:hover,#statBox-font-990000 a:focus{border-bottom:3px solid #900}
+#statBox-font-666666 a{color:#666;border-bottom:1px solid #666}
+#statBox-font-666666 a:hover,#statBox-font-666666 a:focus{border-bottom:3px solid #666}
+#statBox-font-CBC3B7 a{color:#cbc3b7;border-bottom:1px solid #cbc3b7}
+#statBox-font-CBC3B7 a:hover,#statBox-font-CBC3B7 a:focus{border-bottom:3px solid #cbc3b7}
+#statBox-font-FF6600 a{color:#f60;border-bottom:1px solid #f60}
+#statBox-font-FF6600 a:hover,#statBox-font-FF6600 a:focus{border-bottom:3px solid #f60}
+#statBox-font-D7234A a{color:#d7234a;border-bottom:1px solid #d7234a}
+#statBox-font-D7234A a:hover,#statBox-font-D7234A a:focus{border-bottom:3px solid #d7234a}
+#statBox-font-851782 a{color:#851782;border-bottom:1px solid #851782}
+#statBox-font-851782 a:hover,#statBox-font-851782 a:focus{border-bottom:3px solid #851782}
+#statBox-font-0099CC a{color:#09c;border-bottom:1px solid #09c}
+#statBox-font-0099CC a:hover,#statBox-font-0099CC a:focus{border-bottom:3px solid #09c}
+#statBox-font-A3DBE8 a{color:#a3dbe8;border-bottom:1px solid #a3dbe8}
+#statBox-font-A3DBE8 a:hover,#statBox-font-A3DBE8 a:focus{border-bottom:3px solid #a3dbe8}
+#statBox-font-4FAC1C a{color:#4fac1c;border-bottom:1px solid #4fac1c}
+#statBox-font-4FAC1C a:hover,#statBox-font-4FAC1C a:focus{border-bottom:3px solid #4fac1c}
+#statBox-font-B7CD00 a{color:#b7cd00;border-bottom:1px solid #b7cd00}
+#statBox-font-B7CD00 a:hover,#statBox-font-B7CD00 a:focus{border-bottom:3px solid #b7cd00}
+#statBox-font-8B4E21 a{color:#8b4e21;border-bottom:1px solid #8b4e21}
+#statBox-font-8B4E21 a:hover,#statBox-font-8B4E21 a:focus{border-bottom:3px solid #8b4e21}
+#statBox-font-A50052 a{color:#a50052;border-bottom:1px solid #a50052}
+#statBox-font-A50052 a:hover,#statBox-font-A50052 a:focus{border-bottom:3px solid #a50052}
+#statBox-font-4A0259 a{color:#4a0259;border-bottom:1px solid #4a0259}
+#statBox-font-4A0259 a:hover,#statBox-font-4A0259 a:focus{border-bottom:3px solid #4a0259}
+#statBox-font-006697 a{color:#006697;border-bottom:1px solid #006697}
+#statBox-font-006697 a:hover,#statBox-font-006697 a:focus{border-bottom:3px solid #006697}
+#statBox-font-36849F a{color:#36849f;border-bottom:1px solid #36849f}
+#statBox-font-36849F a:hover,#statBox-font-36849F a:focus{border-bottom:3px solid #36849f}
+#statBox-font-464B18 a{color:#464b18;border-bottom:1px solid #464b18}
+#statBox-font-464B18 a:hover,#statBox-font-464B18 a:focus{border-bottom:3px solid #464b18}
+#statBox-font-8D8035 a{color:#8d8035;border-bottom:1px solid #8d8035}
+#statBox-font-8D8035 a:hover,#statBox-font-8D8035 a:focus{border-bottom:3px solid #8d8035}
+#statBox-font-FFB119 a{color:#ffb119;border-bottom:1px solid #ffb119}
+#statBox-font-FFB119 a:hover,#statBox-font-FFB119 a:focus{border-bottom:3px solid #ffb119}
+#statBox-font-D5D6D2 a{color:#d5d6d2;border-bottom:1px solid #d5d6d2}
+#statBox-font-D5D6D2 a:hover,#statBox-font-D5D6D2 a:focus{border-bottom:3px solid #d5d6d2}
+#statBox-font-D3DEE4 a{color:#d3dee4;border-bottom:1px solid #d3dee4}
+#statBox-font-D3DEE4 a:hover,#statBox-font-D3DEE4 a:focus{border-bottom:3px solid #d3dee4}
+#statBox-font-D1DFD6 a{color:#d1dfd6;border-bottom:1px solid #d1dfd6}
+#statBox-font-D1DFD6 a:hover,#statBox-font-D1DFD6 a:focus{border-bottom:3px solid #d1dfd6}
+#statBox-font-D7D3C7 a{color:#d7d3c7;border-bottom:1px solid #d7d3c7}
+#statBox-font-D7D3C7 a:hover,#statBox-font-D7D3C7 a:focus{border-bottom:3px solid #d7d3c7}
+#statBox-font-F1F5F3 a{color:#f1f5f3;border-bottom:1px solid #f1f5f3}
+#statBox-font-F1F5F3 a:hover,#statBox-font-F1F5F3 a:focus{border-bottom:3px solid #f1f5f3}
+#statBox-font-FFFFFF a{color:#fff;border-bottom:1px solid #fff}
+#statBox-font-FFFFFF a:hover,#statBox-font-FFFFFF a:focus{border-bottom:3px solid #fff}
+#statBox-font-000000 a{color:#000;border-bottom:1px solid #000}
+#statBox-font-000000 a:hover,#statBox-font-000000 a:focus{border-bottom:3px solid #000}
+@media(max-width:991px) and (min-width:768px){.statbox-rows .column.gridbase:nth-child(3n+1){clear:both}
+}

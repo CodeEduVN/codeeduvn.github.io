@@ -1,0 +1,317 @@
+/**
+ * Custom styles used for template "Mentor Showcase New"
+**/
+
+.carousel-control.right {
+    background-image: linear-gradient(to right, rgba(140, 11, 11, 0.0001) 0, rgba(22, 0, 134, 0.5) 100%);
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to right,rgba(26, 9, 185, 0.5) 0,rgba(0,0,0,.0001) 100%);
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 170%;
+    font-family: "Arimo", sans-serif;
+}
+
+.carousel-inner {
+    height: 360px !important;
+}
+
+.mentor-multi-item-carousel .carouse-control .left,
+.mentor-multi-item-carousel .carouse-control .right {
+    background-image: none !important;
+}
+
+.mentor-showcase-new-section-1 img {
+    width: 195px;
+    height: 195px !important;
+    margin-left: 26px;
+    margin-top: 26px;
+}
+
+.mentor-showcase-new-section-1-main-background {
+    background-color: rgba(255, 177, 25, 0.5);
+    border: 10px solid #FFC85E;
+}
+
+.mentor-showcase-new-section-1 .intro-paragraph p {
+    font-weight: 600 !important;
+    color: #666 !important;
+    line-height: 22px !important;
+    margin-bottom: 5px !important;
+    margin-top: 15px !important;
+}
+
+/*Todo*/
+#maincontent .mentor-showcase-new-section-1 .intro-paragraph ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666 !important;
+    line-height: 22px !important;
+    margin-bottom: 5px !important;
+    margin-top: 15px !important;
+    list-style-type: circle;
+}
+
+.mentor-showcase-new-section-1 ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.mentor-showcase-new-section-1 .slogan {
+    text-align: center;
+}
+
+.mentor-showcase-new-section-1 .slogan ul li {
+    font-size: 23px !important;
+}
+
+.mentor-showcase-new-section-1 .mentor-detail {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    padding: 15px 10px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: -30px;
+    /*height: 330px;*/
+    width: 300px;
+    text-align: left;
+    margin-top: -1px;
+    border-radius: 6px;
+    box-shadow: 4px 3px 47px -3px rgba(204, 204, 204, 1);
+}
+
+.mentor-showcase-new-section-1 .mentor-detail p {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #666 !important;
+}
+
+.mentor-showcase-new-section-1 .mentor-detail ul {
+    list-style: circle !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.mentor-showcase-new-section-1 .mentor-info {
+    margin: 30px 5px 5px;
+    border-top: 1px solid #EFEFEF;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.mentor-showcase-new-section-1 .mentor-info .mentor-name {
+    color: #494949;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mentor-showcase-new-section-1 .mentor-info .mentor-title {
+    color: #494949;
+    font-size: 13px !important;
+    min-height: 80px;
+}
+
+.mentor-showcase-new-section-2 {
+    border: 10px solid #d1dfd6;
+    padding: 2.5rem;
+}
+
+.mentor-showcase-new-section-2-main-background {
+    background: #d1dfd6;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.mentor-showcase-new-section-2 .title {
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #555 !important;
+    margin-bottom: 20px;
+}
+
+.mentor-showcase-new-section-2 .intro-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.mentor-showcase-new-section-2 .proving-number {
+    color: #990000;
+    font-size: 50px;
+}
+
+.mentor-showcase-new-section-2 .proof {
+    padding: 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mentor-showcase-new-section-2 .proving-content {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #666;
+    line-height: 1.42857143;
+    padding-top: 20px;
+}
+
+.mentor-showcase-new-section-3 {
+    border: 10px solid #dbd5cd;
+    background: #cbc3b7;
+    padding: 2.5rem;
+}
+
+.mentor-showcase-new-section-3 .title {
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #555 !important;
+    margin-bottom: 20px;
+}
+
+.mentor-showcase-new-section-3 .paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mentor-showcase-new-section-4 {
+    border: 10px solid #bfe6ef;
+    background: #a3dbe8;
+    padding: 2.5rem;
+}
+
+.mentor-showcase-new-section-4 .title {
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #555 !important;
+    margin-bottom: 20px;
+}
+
+.mentor-showcase-new-section-4 .paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mentor-showcase-new-section-5 {
+    border: 10px solid #dfe9e2;
+    background: #d3dee4;
+    padding: 2.5rem;
+}
+
+.mentor-showcase-new-section-5 .title {
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #555 !important;
+    margin-bottom: 20px;
+}
+
+.mentor-showcase-new-section-5 .paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mentor-showcase-new-section-5 .region {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.mentor-showcase-new-section-6 {
+    background-color: rgba(243, 233, 215, 0.5);
+    border: 10px solid #f9da9e;
+}
+
+.mentor-showcase-new-section-6 .title {
+    margin-bottom: 0.4rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    padding-top: 35px;
+    color: #555 !important;
+}
+
+.mentor-showcase-new-section-6 .paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+}
+
+.mentor-showcase-new-section-6 .button {
+    text-align: center;
+}
+
+.mentor-showcase-new-section-6 .button a {
+    float: none;
+    background-color: rgb(222, 53, 24);
+    color: rgb(255, 255, 255) !important;
+    border: 3px solid rgb(222, 53, 24) !important;
+    padding: 9px 37px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.mentor-showcase-new-section-6 .button a:hover {
+    float: none;
+    background-color: rgb(255, 255, 255);
+    color: #000 !important;
+}
+
+.register-becoming-mentor {
+    position: relative;
+    line-height: 1.25em;
+    padding: 7px 0px 7px 5px;
+    background-color: #70a1e6;
+}
+
+.register-becoming-mentor a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 0px 7px 5px;
+}
+
+.register-becoming-mentor a img {
+    position: absolute;
+    top: 0px;
+    width: 8px;
+    height: 100%;
+}
+
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bluemix &#8211; FUNiX Blog</title>
+	<atom:link href="https://funix.edu.vn/blog/tag/bluemix/feed/" rel="self" type="application/rss+xml" />
+	<link>https://funix.edu.vn/blog</link>
+	<description>Đại học trực tuyến kiểu FUNiX</description>
+	<lastBuildDate>Wed, 01 Apr 2020 00:06:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+
+<image>
+	<url>https://funix.edu.vn/blog/wp-content/uploads/2018/06/cropped-Funix_New_Ava-385x385-88x88.jpg</url>
+	<title>bluemix &#8211; FUNiX Blog</title>
+	<link>https://funix.edu.vn/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hỏi &#8211; đáp CNTT: Hỏi lỗi ứng dụng không chạy được khi đưa lên bluemix?</title>
+		<link>https://funix.edu.vn/blog/hoi-dap-cntt/hoi-loi-ung-dung-khong-chay-duoc-khi-dua-len-bluemix/</link>
+		<comments>https://funix.edu.vn/blog/hoi-dap-cntt/hoi-loi-ung-dung-khong-chay-duoc-khi-dua-len-bluemix/#respond</comments>
+		<pubDate>Tue, 19 Sep 2017 15:32:49 +0000</pubDate>
+		<dc:creator><![CDATA[congdansoblog]]></dc:creator>
+				<category><![CDATA[Hỏi đáp CNTT]]></category>
+		<category><![CDATA[bluemix]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[lỗi ứng dụng]]></category>
+
+		<guid isPermaLink="false">http://congdanso.com/?p=5303</guid>
+		<description><![CDATA[Câu hỏi: Em có ứng dụng viết bằng Java để gửi từ gmail. Ứng dụng chạy trên máy cá nhân thì gửi được mail nhưng khi đưa lên bluemix thì nó không gửi được mail ạ. Em không biết lỗi là do đâu, xin nhờ mentor giải đáp ạ. Giải đáp của mentor Đặng Hồng [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span style="color: #000000;"><strong>Câu hỏi: Em có ứng dụng viết bằng Java để gửi từ gmail. Ứng dụng chạy trên máy cá nhân thì gửi được mail nhưng khi đưa lên bluemix thì nó không gửi được mail ạ. Em không biết lỗi là do đâu, xin nhờ mentor giải đáp ạ.</strong></span></p>
+<div id="attachment_5326" style="width: 307px" class="wp-caption aligncenter"><img class=" size-full wp-image-5326 aligncenter" src="https://congdansoblog.files.wordpress.com/2017/09/pc_doctor.jpg" alt="pc_doctor" width="297" height="264" /><p class="wp-caption-text">Độc giả có thắc mắc về CNTT mời gửi về cho mentor FUNiX qua chương trình Mentor4All. Link đăng ký<a href="https://www.funix.edu.vn/mentor4all/" target="_blank" rel="noopener"> tại đây</a>. (Ảnh: Quantrimang)</p></div>
+<p><span style="color: #000000;"><strong>Giải đáp của mentor Đặng Hồng Lĩnh:</strong></span></p>
+<p><span style="color: #000000;">Chào bạn,</span></p>
+<p><span style="color: #000000;">Để xử lý lỗi này bạn cần tiến hành lần lượt từng bước sau:</span></p>
+<p><span style="color: #000000;">1. Nếu bạn gửi từ gmail thì cần kiểm tra kỹ cấu hình SMTP gồm tên máy chủ mail (smtp.gmail.com), cổng, giao thức, username và password của email gửi thư đã đúng chưa.</span></p>
+<p><span style="color: #000000;">Bạn có thể tham khảo bài này: https://www.digitalocean.com/community/tutorials/how-to-use-google-s-smtp-server</span></p>
+<p><span style="color: #000000;">2. Kiểm tra xem trên server bluemix có firewall chặn dịch vụ gửi mail không.</span></p>
+<p><span style="color: #000000;">3. Trường hợp vẫn không hoạt động thì bạn cần dò nguyên nhân lỗi ở đâu từ file log của hệ thống. Tham khảo link này để biết cách lấy file log:</span></p>
+<p><span style="color: #000000;"><a href="https://www.ibm.com/blogs/bluemix/2014/10/accessing-application-logs-bluemix/">https://www.ibm.com/blogs/bluemix/2014/10/accessing-application-logs-bluemix/</a></span></p>
+<p><span style="color: #000000;">4. Ngoài giải pháp gửi mail qua server SMTP, bạn có thể dùng cách dịch vụ gửi mail khác không dùng giao thức SMTP như SendGrid, MailJet…</span></p>
+<p><span style="color: #000000;">Chúc bạn học tốt!</span></p>
+<div style="border-width: 1px; border-style: solid; padding: 5px;">
+<p><span style="color: #000000;">Câu hỏi trên nằm trong chương trình <a href="https://www.funix.edu.vn/mentor4all/" target="_blank" rel="noopener">Mentor 4 All</a> của FUNiX. Tham gia Mentor4All, các thành viên sẽ được học online qua hỏi đáp với<a href="https://www.funix.edu.vn/mentors/" target="_blank" rel="noopener"> mentor FUNiX</a> hoàn toàn miễn phí.</span></p>
+<p><span style="color: #000000;">Chương trình kéo dài từ nay đến 13/9/2017. Đăng ký chương trình<a href="https://www.funix.edu.vn/mentor4all/" target="_blank" rel="noopener"> tại đây</a>.</span></p>
+</div>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>https://funix.edu.vn/blog/hoi-dap-cntt/hoi-loi-ung-dung-khong-chay-duoc-khi-dua-len-bluemix/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

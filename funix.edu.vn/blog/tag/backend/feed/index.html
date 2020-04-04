@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>backend &#8211; FUNiX Blog</title>
+	<atom:link href="https://funix.edu.vn/blog/tag/backend/feed/" rel="self" type="application/rss+xml" />
+	<link>https://funix.edu.vn/blog</link>
+	<description>Đại học trực tuyến kiểu FUNiX</description>
+	<lastBuildDate>Wed, 01 Apr 2020 00:06:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+
+<image>
+	<url>https://funix.edu.vn/blog/wp-content/uploads/2018/06/cropped-Funix_New_Ava-385x385-88x88.jpg</url>
+	<title>backend &#8211; FUNiX Blog</title>
+	<link>https://funix.edu.vn/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Tối ưu hóa Performance</title>
+		<link>https://funix.edu.vn/blog/chia-se-kien-thuc/toi-uu-hoa-performance/</link>
+		<comments>https://funix.edu.vn/blog/chia-se-kien-thuc/toi-uu-hoa-performance/#respond</comments>
+		<pubDate>Mon, 21 Aug 2017 05:14:31 +0000</pubDate>
+		<dc:creator><![CDATA[congdansoblog]]></dc:creator>
+				<category><![CDATA[Chia sẻ kiến thức]]></category>
+		<category><![CDATA[backend]]></category>
+		<category><![CDATA[front-end]]></category>
+		<category><![CDATA[performance]]></category>
+		<category><![CDATA[tối ưu hóa performance]]></category>
+
+		<guid isPermaLink="false">http://congdanso.com/?p=4161</guid>
+		<description><![CDATA[Bùi Quang Hiếu Phần 1 : Tổng quan về tối ưu hóa và kỹ thuật AJAX  Trong loạt bài viết này, chúng ta sẽ tìm hiểu về tầm quan trọng của việc tối ưu hóa performance cũng như những phương pháp tối ưu hóa từ front-end, backend…đến một số kỹ thuật dùng tool, kiểm thử [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span style="color:#000000;"><strong>Bùi Quang Hiếu</strong></span></p>
+<h2><span style="color:#000000;"><strong>Phần 1 : Tổng quan về tối ưu hóa và kỹ thuật AJAX </strong></span></h2>
+<p><span style="color:#000000;"><em>Trong loạt bài viết này, chúng ta sẽ tìm hiểu về tầm quan trọng của việc tối ưu hóa performance cũng như những phương pháp tối ưu hóa từ front-end, backend…đến một số kỹ thuật dùng tool, kiểm thử performance. Trong bài đầu tiê, chúng ta sẽ thảo luận về việc tại sao performance lại là key-point trong bất kỳ sản phẩm phần mềm nà? Chúng ta cũng sẽ thảo luận về một kỹ thuật rất phổ biến đó là AJAX…</em></span></p>
+<p><span style="color:#000000;">Trong vài năm gần đây hiệu năng của các ứng dụng web trở nên vô cùng quan trọng cho các tổ chức, doanh nghiệp. Vậy tại sao trang web chạy nhanh và có khả năng chịu tải lớn lại quan trọng đến thế? Có 4 lý do :</span></p>
+<ul>
+<li><span style="color:#000000;">Theo cách đánh giá công cụ tìm kiếm google nếu website 50ms slower (Chậm hơn 50ms) = 20% drop in traffic (Giảm đi mất 20% lưu lượng truy cập). Tức là trang web chỉ chậm hơn 50 mili giây là công cụ tìm kiếm google xếp thứ hạng giảm đi 20% lưu lượng truy cập</span></li>
+<li><span style="color:#000000;">Một bí quyết thành công quan trọng của CEO AMAZON là ông luôn khó chịu với những thứ khách hàng ghét như sự chậm trễ, sản phẩm gặp lỗi hay hết hàng. Với Amazon website phải được đảm bảo vận hành nhanh chóng nhất có thể vì Amazon tin thời gian tải trang chỉ trễ 0,1s đồng nghĩa họ mất 1% hoạt động của khách hàng.</span></li>
+<li><span style="color:#000000;">Xu hướng tất yếu của sự dịch chuyển nền tảng hỗ trợ truy cập website từ thiết bị cầm tay như mobile và máy tính bảng ngày càng lớn. Vấn đề đặt ra là các thiết bị này bị giới hạn về năng lực xử lý và băng thông truy cập. Vì thế những website nhanh người dùng sẽ đánh giá rất cao trong cảm nhận sự tương tác với giao diện, họ sẽ ở lại và truy cập website đó nhiều hơn và số lượng người dùng cũng từ đó mà gia tăng nhiều hơn.</span></li>
+<li><span style="color:#000000;">Theo nghiên cứu trong vài năm gần đây có nhiều hệ thống lớn thường xuyên bị quá tải phục vụ và ngừng hoạt động khi lượng truy cập tăng đột biến. Chẳng hạn như các hệ thống bán vé tầu vào dịp tết nguyên đán, hệ thống xem điểm thi đại học, hệ thống tài chính chứng khoán, ngân hàng luôn luôn bị quá tải khi số lượng người dùng đồng thời tăng lên hàng trăm ngàn lượt truy cập trên giây. Vậy khi đó nghĩ đến việc mở rộng gánh tải cho phần cứng mở rộng đường truyền, từng đó chưa đủ và quá tốn kém chi phí. Chính vì thế khi phát triển một hệ thống phần mềm lớn công đoạn kiểm thử hiệu năng ứng dụng trước khi phát hành sản phẩm là rất cần thiết để đảm bảo khả năng, mức độ chịu tải, độ tin cậy và khả năng mở rộng của hệ thống theo một khối lượng tải nhất định</span></li>
+</ul>
+<p><span style="color:#000000;">Tóm lại vấn đề tối ưu hiệu năng và kiểm thử hiệu năng cho ứng dụng web nói riêng và ứng dụng phần mềm nói chung là vô cùng quan trọng và không thể thiếu. Nó không chỉ góp phần làm tốt hơn cho trải nghiệm người dùng, nó còn giúp giữ và gia tăng số người sử dụng theo thời gian. Đồng nghĩa với việc giúp thúc đẩy tăng trưởng to lớn trong kinh doanh. Vì vậy cần có một chiến lược tối ưu hiệu năng và kiểm thử hiệu năng ngay từ khi bắt đầu xây dựng dự án.</span></p>
+<p><span style="color:#000000;"><strong>Các kỹ thuật tối ưu hiệu năng client-side</strong></span></p>
+<p><span style="color:#000000;">Theo nghiên cứu của 50 nghìn website hàng đầu, 13% thời gian xử lý phản hồi từ database logic và server side, 87% thời gian xử lý phản hồi ở client side gồm tải ảnh, css, js, html, video stream và các tài nguyên khác.</span></p>
+<div id="attachment_4168" style="width: 592px" class="wp-caption aligncenter"><img class="alignnone size-full wp-image-4168" src="https://congdansoblog.files.wordpress.com/2017/08/image001.jpg" alt="image001" width="582" height="248" srcset="https://funix.edu.vn/blog/wp-content/uploads/2017/08/image001.jpg 582w, https://funix.edu.vn/blog/wp-content/uploads/2017/08/image001-300x128.jpg 300w" sizes="(max-width: 582px) 100vw, 582px" /><p class="wp-caption-text"></span> <span style="color:#000000;"><em>Thời gian xử lý tại các tầng của website (nguồn stevesouders)</em></span></p></div>
+<p><span style="color:#000000;">Từ biểu đồ trên ta thấy việc tối ưu hiệu năng cho client-side rất quan trọng bởi chúng chiếm phần lớn tổng thời gian thực thi của một trang web. Với xu hướng điện toán đám mây, tư tưởng đột phá của các chuyên gia hiệu năng hàng đầu trên thế giới đang tập trung nghiên cứu để hướng đến các công nghệ chuyển dịch tính toán xử lý về phía mạng lưới client side để tận dụng tài nguyên dư thừa rất lớn của máy trạm mà không bao giờ sử dụng hết, giúp giảm tải cho phía server side. Dưới đây là các kỹ thuật về tư tưởng tối ưu hiệu năng phân tích rõ lợi ích và hạn chế cho từng kỹ thuật.</span></p>
+<ol>
+<li><span style="color:#000000;"><strong> Kỹ thuật Ajax</strong></span></li>
+</ol>
+<p><span style="color:#000000;">AJAX tiếng anh là “Asynchronous JavaScript and XML” nghĩa là “JavaScript và XML không đồng bộ” là một nhóm các công nghệ phát triển web [3].</span></p>
+<ul>
+<li><span style="color:#000000;">Lợi ích là các trang được cập nhật nhưng không nạp lại toàn bộ. Mọi thao tác của người sử dụng sẽ gửi mẫu của một lời gọi JavaScript tới bộ xử lý Ajax thay vì tạo một yêu cầu http (http request). Ví dụ việc kiểm tra sự hợp lệ của dữ liệu, sửa đổi dữ liệu trong bộ nhớ và thậm chí là một thao tác duyệt trang bộ xử lý Ajax tự nó đảm nhận trách nhiệm này. Nếu bộ xử lý cần gì từ máy phục vụ để đáp ứng như khi nó gửi dữ liệu để xử lý, tải bổ sung các mã giao diện hay nhận dữ liệu mới nó sẽ thực hiện các yêu cầu tới máy phục vụ một cách không đồng bộ mà không làm gián đoạn sự tương tác của người sử dụng với ứng dụng web.</span></li>
+</ul>
+<p><span style="color:#000000;">Trong nhiều trường hợp, các trang web chứa rất nhiều nội dung thông thường trong trang. Nếu sử dụng các phương pháp truyền thống, những nội dụng đó sẽ phải nạp lại toàn bộ với từng yêu cầu. Tuy nhiên nếu sử dụng Ajax một ứng dụng web có thể chỉ yêu cầu cho các nội dung cần thiết phải cập nhật, do đó giảm lượng lớn băng thông và thời gian nạp trang.</span></p>
+<p><span style="color:#000000;">Sử dụng Ajax có thể làm giảm các kết nối đến server, do các mã kịch bản (script) và các <a href="http://vi.wikipedia.org/w/index.php?title=Style_sheet_%28ph%C3%A1t_tri%E1%BB%83n_web%29&amp;action=edit&amp;redlink=1">style sheet</a>, html chỉ phải yêu cầu một lần. Điển hình là dịch vụ gmail, khi vào gmail mỗi lần có email mới hoặc một hành động gửi email thì chỉ một phần nội dung được tải thay vì phải tải lại toàn bộ trang.</span></p>
+<div id="attachment_4169" style="width: 612px" class="wp-caption aligncenter"><img class="alignnone size-full wp-image-4169" src="https://congdansoblog.files.wordpress.com/2017/08/image002.jpg" alt="image002" width="602" height="221" srcset="https://funix.edu.vn/blog/wp-content/uploads/2017/08/image002.jpg 602w, https://funix.edu.vn/blog/wp-content/uploads/2017/08/image002-300x110.jpg 300w" sizes="(max-width: 602px) 100vw, 602px" /><p class="wp-caption-text"></span> <span style="color:#000000;"><em>Ứng dụng gmail sử dụng kỹ thuật Ajax cập nhật nội dung mới</em></span></p></div>
+<p><span style="color:#000000;">Những web site lớn thường tích hợp với rất nhiều các hệ thống thứ ba. Vậy vấn đề đặt ra là khi ứng dụng web của mình đang cố tải một nội dung từ một bên thứ ba chẳng hạn như thông tin về chưng khoán, thời tiết, tỷ giá ngân hàng, quảng cáo, lịch chiếu phim, game, facebook, twiter…để hiển thị lên trang tin chính. Nếu như một trong số hãng thứ ba được nêu ở trên bị dừng hoạt động vì một nguyên nhân nào đó hoặc đơn giản là bên thứ ba phản hồi nội dung quá chậm, khi đó sẽ dẫn đến website sẽ bị blocking để chờ cho tới khi lấy được toàn bộ nội dung. Và môt điều ảnh hưởng nghiêm trọng là website sẽ phản hồi chậm chạm và gây cảm giác khó chịu cho người sử dụng. Thậm chí là hàng đợi chờ xử lý sẽ tăng vọt khiến hiệu năng CPU quá tải dẫn đến hệ thống tê liệt hoàn toàn. Chính vì thế kỹ thuật tải bất đồng bộ sẽ được sử dụng hiệu quả trong những tình huống này. Sử dụng kỹ thuật này để tải bất đồng bộ một vùng nội dung mà không phải quan tâm nội dung đó đang bị treo hay không. Website vẫn tiếp tục tải mà không bị ảnh hưởng bởi các nội dung bị blocking.</span></p>
+<div id="attachment_4170" style="width: 660px" class="wp-caption alignnone"><img class="alignnone  wp-image-4170" src="https://congdansoblog.files.wordpress.com/2017/08/image003.jpg" alt="image003" width="650" height="161" srcset="https://funix.edu.vn/blog/wp-content/uploads/2017/08/image003.jpg 581w, https://funix.edu.vn/blog/wp-content/uploads/2017/08/image003-300x74.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" /><p class="wp-caption-text"></span> <span style="color:#000000;"><em>Trang tin điện tử sử dụng kỹ thuật Ajax tải bất đồng bộ để lấy thông tin giá vàng từ ngân hàng TPBank</em></span></p></div>
+<p><span style="color:#000000;"><em> </em></span></p>
+<p><span style="color:#000000;">Dưới đây là đoạn mã nguồn trong ứng dụng demo tải thêm nội dung sử dụng Ajax tải bất đồng bộ.</span></p>
+<p><span style="color:#000000;">var servicePath = &#8220;/WebServices/ClipServices.ashx&#8221;;</span></p>
+<p><span style="color:#000000;">var newPaging = 0;</span></p>
+<p><span style="color:#000000;">var index = 8;</span></p>
+<p><span style="color:#000000;">function LoadMoreClips(paging, total) {</span></p>
+<p><span style="color:#000000;">    if (newPaging &lt; total) {</span></p>
+<p><span style="color:#000000;">        newPaging = newPaging + 8;</span></p>
+<p><span style="color:#000000;">        var requestUrl = servicePath + &#8220;?paging=&#8221; + newPaging + &#8220;&amp;total=&#8221; + total;</span></p>
+<p><span style="color:#000000;">        $.ajax({</span></p>
+<p><span style="color:#000000;">            type: &#8220;GET&#8221;,</span></p>
+<p><span style="color:#000000;">            url: requestUrl,</span></p>
+<p><span style="color:#000000;">               success: function (data) {</span></p>
+<p><span style="color:#000000;">                var content = $(&#8220;.clip-lip-container&#8221;);</span></p>
+<p><span style="color:#000000;">                content.append(data);</span></p>
+<p><span style="color:#000000;">                index = index + 8;</span></p>
+<p><span style="color:#000000;">                if (index &gt; total) {</span></p>
+<p><span style="color:#000000;">                    index = total;</span></p>
+<p><span style="color:#000000;">                }</span></p>
+<p><span style="color:#000000;">                $(&#8220;#paging-index&#8221;).html(index + &#8216;-&#8216; + total);</span></p>
+<p><span style="color:#000000;">            }       </span></p>
+<p><span style="color:#000000;">});   </span></p>
+<p><span style="color:#000000;">}}</span></p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="color:#000000;">Một số điểm hạn chế khi sử dụng Ajax là :</span></li>
+<li><span style="color:#000000;">Không thể bookmark nó vào favourite trên trình duyệt hay gửi link đến cho bạn bè, vì tất cả quá trình nó thực hiện ngầm và không hiển thị trên address.</span></li>
+<li><span style="color:#000000;">Không thể hiển thị nội dung trên các trang tìm kiếm vì các trang tìm kiếm hiện nay vẫn chưa hỗ trợ tìm vì rất khó tìm và gần như không thể tìm được.</span></li>
+<li><span style="color:#000000;">Không thể sử dụng nút back vì back cũng là chính nó.</span></li>
+</ul>
+<p><span style="color:#000000;">Nhưng với những điểm hạn chế nói trên thì Ajax vẫn đang được các lập trình viên sử dụng rộng rãi và đang nghiên cứu để cải thiện nó để khắc phục các nhược điểm. Ví dụ như vừa update thông tin trên web, vừa thay đổi trên thanh address để có thể sử dụng một số chức năng liên quan tới địa chỉ tuyệt đối này. Dùng các API để push lên các cỗ máy tìm kiếm giúp giúp khắc phục về lỗi tìm kiếm nội dung. Sử dụng URL query để đánh dấu phân trang</span></p>
+<p><span style="color:#000000;"><em>Như vậy chúng ta đã hiểu tầm quan trọng của việc tối ưu hóa performance, đặc biệt là cho web application. Chúng ta cũng tìm hiểu về Ajax, điểm mạnh, yếu và cách áp dụng Ajax vào dự án. Vậy còn những kỹ thuật nào giúp nâng cao performance? Hãy cùng chờ đón ở những phần tiếp theo… </em></span></p>
+<p><span style="color:#000000;"><em> </em></span></p>
+]]></content:encoded>
+			<wfw:commentRss>https://funix.edu.vn/blog/chia-se-kien-thuc/toi-uu-hoa-performance/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

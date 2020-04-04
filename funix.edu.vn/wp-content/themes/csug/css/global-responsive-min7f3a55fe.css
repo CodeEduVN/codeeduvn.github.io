@@ -1,0 +1,665 @@
+@media only screen and (max-width: 700px) {
+    .hidden-md {
+        display: none
+    }
+
+    .reputationcontainer {
+        position: relative;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 100px 30px 50px 30px !important;
+        background: url(../imgs/bg_reputation.jpg) no-repeat top center;
+        background-size: cover
+    }
+
+    .reputation {
+        text-align: right;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important
+    }
+
+    .reputation h2 {
+        font-size: 32px !important;
+        font-weight: 800;
+        color: #33445e;
+        padding-bottom: 25px;
+        margin-left: 0 !important;
+        margin-bottom: 25px;
+        border-bottom: 2px dotted #555
+    }
+
+    .reputation h3 {
+        font-size: 24px;
+        font-weight: 800;
+        color: #33445e;
+        margin-left: 0 !important;
+        margin-bottom: 15px
+    }
+
+    .reputation p {
+        width: 100% !important;
+        font-size: 14px;
+        font-weight: 400;
+        color: #555;
+        line-height: 20px;
+        margin-left: 0 !important;
+        margin-bottom: 20px
+    }
+
+    .valuescontainer {
+        margin: 0 !important;
+        padding: 300px 0 0 0 !important;
+        background: url(../imgs/bg_values.jpg) no-repeat top center;
+        background-size: cover;
+        width: 100% !important
+    }
+
+    .zigzag {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%
+    }
+
+    .values {
+        margin: 0 !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        width: 100% !important
+    }
+
+    .values .livelocally {
+        position: absolute;
+        top: 250px;
+        font-size: 32px !important;
+        font-weight: 400;
+        line-height: 36px !important;
+        margin-top: 150px;
+        text-align: center;
+        width: 100%
+    }
+
+    .degrees {
+        padding: 30px !important
+    }
+
+    .degrees .col {
+        float: none !important;
+        width: auto !important;
+        margin-bottom: 60px !important
+    }
+
+    .whycsug {
+        padding: 30px !important
+    }
+
+    .whycsug .whycsug_icon {
+        width: 75px !important
+    }
+
+    .whycsug p {
+        font-size: 14px !important
+    }
+
+    .admissions h2 {
+        font-size: 24px !important;
+        line-height: 28px !important
+    }
+
+    .admissions p {
+        padding-right: 0px !important
+    }
+
+    .graduates h2 {
+        font-size: 28px !important;
+        line-height: 32px !important;
+        padding-top: 8% !important
+    }
+
+    .col-content ul.itemlist li {
+        width: 100% !important
+    }
+
+    .col-content ul.itemlist li.active {
+        font-weight: 600
+    }
+
+    .col-content ul.itemlist li .desc {
+        position: relative !important;
+        left: 0 !important;
+        top: 0px !important;
+        right: 0px !important;
+        width: 90% !important;
+        padding: 10px 10px 10px 20px;
+        background-color: #e3ecfb;
+        font-weight: 500 !important
+    }
+
+    .descarrow {
+        display: none !important
+    }
+
+    .col-content ul.itemlist li.active * {
+        display: block;
+        position: relative;
+        z-index: 1 !important;
+        font-weight: 600
+    }
+
+    .contentcontainer .col-content #degree-buttons-wrapper div {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100% !important
+    }
+
+    .contentcontainer .col-content #degree-buttons-wrapper div:nth-child(1) > a {
+        float: none;
+        margin-right: 0 !important;
+        width: 90% !important
+    }
+
+    .contentcontainer .col-content #degree-buttons-wrapper div:nth-child(2) > a {
+        float: none;
+        margin-left: 0 !important;
+        width: 90% !important
+    }
+
+    #newscontainer {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important
+    }
+
+    #news, #connect {
+        position: relative;
+        text-align: left;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto;
+        padding: 0 !important
+    }
+
+    #connect {
+        padding-left: 0 !important
+    }
+
+    #news h1, #connect h1 {
+        border-bottom: 2px solid #33445E;
+        color: #33445E;
+        font-size: 50px;
+        font-weight: 400;
+        margin: 10px 10px !important;
+        padding: 10px 0 !important
+    }
+
+    #news .stories, #connect .stories {
+        float: left;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important
+    }
+
+    #news .stories h2 {
+        padding: 10px
+    }
+
+    #news .stories p {
+        padding: 10px
+    }
+
+    #news .stories .divider {
+        margin: 20px auto !important;
+        padding: 10px !important;
+        width: 90%
+    }
+
+    #news .tweet-container {
+        margin: 0 auto !important;
+        padding: 0 10px !important;
+        width: 100%
+    }
+
+    .tweet-container {
+        border-top: 1px solid #CCC;
+        margin: 0 10px 10px 10px !important;
+        padding: 10px !important
+    }
+
+    .tweet {
+        width: 100% !important
+    }
+
+    #news-social {
+        float: left;
+        margin-left: 0 !important;
+        margin-top: 20px;
+        width: 100% !important
+    }
+
+    .hidden-sm, #rfi_short {
+        display: none !important
+    }
+
+    #breadcrumb {
+        display: none
+    }
+
+    a#sectionToggle {
+        display: block !important;
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    #lnav .nav-tree {
+        display: none
+    }
+
+    #lnav {
+        border-right: solid #70A1E6 0;
+        margin-left: 15px
+    }
+
+    #lnav .nav-tree li.nav-selected a .CurrentNavIndicator {
+        display: none !important
+    }
+
+    iframe {
+        max-width: 100% !important
+    }
+
+    #maincontent .col-content {
+        min-width: 0;
+        padding-top: 25px
+    }
+
+    #maincontent .col-content h1 {
+        font-size: 24px;
+        line-height: 1.5em
+    }
+
+    #maincontent .col-content .lg {
+        font-size: 20px;
+        line-height: 1.5em
+    }
+
+    #maincontent .col-right-sidebar {
+        min-width: 0
+    }
+
+    .container {
+        min-width: 0
+    }
+
+    #subheadercontainer {
+        background-size: cover !important;
+        height: 160px !important;
+        padding-top: 0;
+        min-height: 160px
+    }
+
+    #subheadercontainer.hidden-lg {
+        display: block !important;
+        background: #CCC !important;
+        height: 120px !important;
+        min-height: 120px
+    }
+
+    #subheader {
+        min-width: 100%;
+        max-width: 100%
+    }
+
+    #subheadercontainer h1 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 22px;
+        padding: 200px 10px 10px 10px;
+        margin-left: 0;
+        background-color: rgba(55, 72, 100, .4)
+    }
+
+    #subheadercontainer h1 .smttl {
+        font-size: 18px !important;
+        font-weight: 500 !important;
+        text-transform: none !important
+    }
+
+    #subheadercontainer h1.level3 {
+        color: #1c2333;
+        background-color: transparent !important
+    }
+
+    #subheader h1 p {
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    #subheadercontainer h1 .spec {
+        font-size: 12px;
+        line-height: 30px;
+        margin-right: -10px
+    }
+
+    .help {
+        min-height: 350px
+    }
+
+    .help a.ctalink {
+        width: 100%;
+        margin-bottom: 15px
+    }
+
+    .help a.ctalink #chat {
+        margin-left: 0
+    }
+
+    .help #finddegree {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: 0 solid #bbb;
+        width: 100%;
+        float: none
+    }
+
+    .help #finddegree select {
+        width: 100%
+    }
+
+    .help #finddegree select[name=bs_programs], .help #finddegree select[name=ms_programs], .help #finddegree select[name=ll_programs] {
+        left: 0
+    }
+
+    .valuescontainer {
+        padding: 225px 0 0 0 !important;
+        background-size: 100% auto
+    }
+
+    .valuescontainer .livelocally h2 {
+        font-size: 34px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 25px
+    }
+
+    .degrees {
+        padding: 10px !important
+    }
+
+    .degrees h2 {
+        font-size: 38px
+    }
+
+    .degrees h3 {
+        font-size: 18px !important
+    }
+
+    .degrees h3 .type {
+        font-size: 24px !important
+    }
+
+    .whycsug {
+        padding: 20px !important
+    }
+
+    .whycsug .col-sm-4 {
+        margin-bottom: 20px
+    }
+
+    .whycsug h2 {
+        font-size: 30px !important
+    }
+
+    .whycsug .col {
+        float: none !important;
+        width: auto !important;
+        margin-bottom: 40px !important
+    }
+
+    .whycsug .whycsug_icon {
+        margin-bottom: 10px !important
+    }
+
+    .admissions h2 {
+        float: none !important;
+        width: auto !important;
+        text-align: center !important;
+        padding-top: 10px !important;
+        padding-right: 0px !important;
+        padding-bottom: 15px
+    }
+
+    .admissions p {
+        padding: 0px !important;
+        margin: 0px !important
+    }
+
+    .graduates {
+        margin-bottom: 40px !important
+    }
+
+    .graduates .col {
+        float: none !important;
+        width: auto !important
+    }
+
+    .graduates .col1 {
+        width: auto !important;
+        margin: 0px !important
+    }
+
+    .graduates .video-container {
+        border: none !important
+    }
+
+    .graduates h2 {
+        padding: 20px !important
+    }
+
+    .ccm-custom-style-container.graduates .video-container {
+        margin-left: 0
+    }
+
+    .reputationcontainer {
+        background-size: 100% auto
+    }
+
+    #maincontent .col-left-sidebar {
+        min-width: 0;
+        padding-top: 0;
+        padding-left: 15px
+    }
+
+    #news-header h1 {
+        font-size: 85px !important
+    }
+
+    #news-featured-main #news-featured-main-image {
+        width: 100% !important
+    }
+
+    #news-featured-main img {
+        max-width: 90% !important;
+        padding: 10px
+    }
+
+    #news-featured-main #news-featured-main-copy {
+        width: 100% !important
+    }
+
+    #news-featured-main #news-featured-main-copy h2, #news-featured-main #news-featured-main-copy p {
+        padding: 10px
+    }
+
+    #news-main {
+        width: 100% !important
+    }
+
+    #news-sidebar {
+        width: 100% !important
+    }
+
+    .thankyou {
+        padding: 15px !important
+    }
+
+    .thankyou h2 {
+        float: none !important;
+        font-size: 36px !important
+    }
+
+    #toprfi .thankyou, #bottomrfi .thankyou {
+        margin-left: 0px !important
+    }
+
+    #rfifull {
+        padding: 50px 15px !important;
+        background-image: none !important
+    }
+
+    #rfifull > h3, #rfifull > p, #rfifull #wrapper_rfiformfull {
+        width: 90% !important
+    }
+
+    footer {
+        padding: 20px
+    }
+
+    footer .col-md-3 {
+        margin-bottom: 20px
+    }
+
+    footer ul.navspacer {
+        margin-top: -20px
+    }
+
+    .ccm-custom-style-container.full-width-quote p {
+        font-size: 22px;
+        line-height: 32px
+    }
+
+    .mrfi_button {
+        display: block !important
+    }
+}
+
+@media print {
+    .col-content ul.itemlist li {
+        page-break-inside: avoid
+    }
+
+    .col-content .bodycontent img {
+        page-break-before: avoid;
+        page-break-after: avoid
+    }
+
+    a.btn_lblue_white, input.btn_lblue_white {
+        min-width: 395px
+    }
+
+    #subheadercontainer #graybar, #subheadercontainer #greenbar, #graybar #breadcrumbs, #greenbar #breadcrumbs {
+        padding-left: 0;
+        background-color: transparent !important
+    }
+
+    #graybar #breadcrumbs #home {
+        left: 0
+    }
+
+    #graybar #breadcrumbs {
+        min-width: 1055px;
+        max-width: 1170px
+    }
+
+    .col-content .bodycontent {
+        width: 80% !important;
+        margin: 0 auto
+    }
+
+    .col-content .bodycontent .col1, .col-content .bodycontent .col2 {
+        width: 100% !important
+    }
+
+    .container {
+        min-width: 0
+    }
+
+    #subheadercontainer {
+        min-height: 50px !important;
+        background: none !important
+    }
+
+    #subheader {
+        height: 200px !important
+    }
+
+    #subheader h1 {
+        color: #333 !important;
+        background-color: transparent !important;
+        top: 20px
+    }
+
+    .col-content ul.itemlist li.active, .col-content ul.itemlist li {
+        width: 80% !important;
+        margin: 0 !important
+    }
+
+    .col-content ul.itemlist li, .col-content ul.itemlist li.active, .col-content ul.itemlist li .desc {
+        display: block !important;
+        position: relative;
+        right: 0;
+        width: 80% !important;
+        background-color: transparent !important
+    }
+
+    .col-content ul.itemlist li .desc {
+        position: relative !important;
+        width: 100% !important;
+        right: 0 !important;
+        border-bottom: 1px solid #c1c1c1
+    }
+
+    .table td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px
+    }
+
+    #tabbed .tab {
+        display: block !important
+    }
+
+    .col1.faculty, .col2.faculty {
+        width: 280px !important
+    }
+
+    .col1.faculty dd, .col2.faculty dd {
+        display: block !important;
+        margin-bottom: 40px;
+        background-color: transparent !important
+    }
+
+    .contentcontainer.blue {
+        background: transparent !important
+    }
+
+    #news-header {
+        padding-top: 0
+    }
+
+    #news-featured-main, .tweet-container {
+        background: none !important
+    }
+
+    .col-content .bluecol {
+        float: none;
+        padding-left: 0
+    }
+
+    #header_desktop_container, #headercontainer, #leftside, #rightside, #bottomrficontainer, #footercontainer, .breadcrumb, #greenbar #breadcrumbs a.cur, .col-left-sidebar, .col-right-sidebar, footer, .fullquote, a.btn_mblue_xlblue, input.btn_mblue_xlblue, #ctabox, #dd_awards_of_completion, .clr, a.btn_lblue_white, input.btn_lblue_white, iframe, div[style*="height:50px"], .col-content ul.itemlist li[style*="height:250px"], #news-featured-main-image, .tweet-icon.hidden-md, .whiteicon, #tuition-calculator, #tabbed .tabnav, #tabnavbottomx, #tabnavbottom, #degree-buttons-wrapper {
+        display: none !important
+    }
+}

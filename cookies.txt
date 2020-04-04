@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+code.edu.vn	TRUE	/	FALSE	1999999999	PHPSESSID	e88u3loevtopb9d15reksl8l76
+code.edu.vn	TRUE	/	FALSE	1999999999	pll_language	vi
+giaoducthoidai.vn	TRUE	/	FALSE	1999999999	mobile	5xh1tohchrpwij0nwifghugh
+logging.admicro.vn	TRUE	/	FALSE	1999999999	__uid	2458997752660008016
+logging.admicro.vn	TRUE	/	FALSE	1999999999	__create	1585899775
+logging.admicro.vn	TRUE	/	FALSE	1999999999	uinfo	-1
+logging.admicro.vn	TRUE	/	FALSE	1999999999	__tb	0
+lg1.logging.admicro.vn	TRUE	/	FALSE	1999999999	SameSite	None
+

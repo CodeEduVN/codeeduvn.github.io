@@ -1,0 +1,714 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&amp;subset=latin,vietnamese,latin-ext);
+.mainColor {
+  color: #fd6610;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes flyingBalloon {
+  0% {
+    top: 0px;
+  }
+  30% {
+    top: 10px;
+  }
+  50% {
+    top: 20px;
+  }
+  70% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes loading {
+  from {
+    max-width: 0;
+  }
+}
+
+.middle-button {
+  max-width: 260px;
+  border: 4px solid;
+  margin: 20px auto 0;
+  display: block;
+  text-transform: uppercase;
+  font-size: 25px;
+  clear: both;
+}
+
+.middle-button:hover {
+  text-decoration: none;
+}
+
+.color-button {
+  color: #fff !important;
+  background: #fd6610;
+}
+
+.color-button:hover {
+  color: #fd6610 !important;
+  border-color: #fd6610 !important;
+}
+
+.blank-button {
+  border: 2px solid #222;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background: #fd6610;
+}
+
+.blank-button:hover {
+  color: #222;
+  background: none;
+}
+
+.fixed-top-menu {
+  position: fixed;
+  top: 0;
+  z-index: 9999999;
+}
+
+h3 {
+  color: #fd6610;
+  text-transform: uppercase;
+}
+
+.responsive-navbar li a:hover, .responsive-navbar li a:focus, .responsive-navbar li a:visited, .responsive-navbar li a:active {
+  background: none;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background: none;
+}
+
+.why-choice-qoute-title {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    margin: 0 auto;
+    float: none;
+    display: block;
+  }
+  .navbar-toggle {
+    float: left;
+    margin-top: 17px;
+    margin-bottom: 4px;
+  }
+  .navbar-toggle .icon-bar {
+    background: #554842;
+  }
+  .benefit-wrapper, .job-opportunity-wrapper, .why-choice-section, .schedule-section, .faq-section, .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .benefit-wrapper .media a, .job-opportunity-wrapper .media a, .why-choice-section .media a, .schedule-section .media a, .faq-section .media a, .footer .media a {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .benefit-wrapper .media .media-body, .job-opportunity-wrapper .media .media-body, .why-choice-section .media .media-body, .schedule-section .media .media-body, .faq-section .media .media-body, .footer .media .media-body {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .job-opportunity-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .why-choice-item, .schedule-item, .faq-item {
+    margin-bottom: 30px;
+  }
+  .why-choice-item .why-choice-image, .schedule-item .why-choice-image, .faq-item .why-choice-image {
+    margin-bottom: 20px;
+  }
+  .why-choice-item .why-choice-qoute, .schedule-item .why-choice-qoute, .faq-item .why-choice-qoute {
+    text-align: center;
+  }
+  .schedule-item img {
+    margin-bottom: 30px;
+  }
+  .form-group select {
+    margin-bottom: 15px;
+  }
+  form .register-form-submit {
+    float: none;
+    margin: 10px auto;
+    display: block;
+  }
+  form .form-group, form button[type="submit"] {
+    display: none;
+  }
+  .toggleForm {
+    max-width: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .job-opportunity-item-title {
+    height: 38px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    animation: animatedBackground 20s linear infinite;
+    border-bottom: 50px solid #67c18d;
+    max-height: 880px;
+    overflow: hidden;
+  }
+  .header form {
+    margin-top: 100px;
+  }
+  .header form .register-form-submit {
+    float: right;
+    margin-right: 15px;
+  }
+  .header .animation-promo {
+    margin-top: 120px;
+  }
+  .header .animation-promo img {
+    max-width: 313px;
+    position: relative;
+    animation: flyingBalloon 5s linear infinite;
+  }
+  .header .city {
+    position: relative;
+    z-index: 99;
+    top: -50px;
+  }
+  .main-navigation .navbar .navbar-nav {
+    margin-top: 13px;
+  }
+  .job-opportunity-wrapper {
+    padding: 60px 45px;
+  }
+  .benefit-wrapper {
+    padding: 60px 90px;
+  }
+  .benefit-wrapper .benefit-item .media-body {
+    padding: 30px 0 0 15px;
+  }
+  .why-choice-section {
+    padding-top: 84px;
+    padding-bottom: 65px;
+  }
+  .why-choice-section .dotSign {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background: #222;
+    border-radius: 100%;
+    left: calc(50% - 12px);
+    top: calc(311px/2);
+  }
+  .why-choice-section .timeline {
+    width: 3px;
+    height: 1866px;
+    position: absolute;
+    display: block;
+    background: #222;
+    top: 9%;
+    left: calc(50% - 2px);
+  }
+  .why-choice-section .color-timeline {
+    content: "";
+    width: 3px;
+    height: 0%;
+    position: absolute;
+    display: block;
+    background: #fd6610;
+    top: 9%;
+    left: calc(50% - 2px);
+  }
+  .why-choice-section h3 {
+    margin-bottom: 80px;
+  }
+  .why-choice-section .why-choice-wrapper {
+    padding: 0 70px;
+  }
+  .why-choice-section .why-choice-wrapper .why-choice-qoute {
+    padding: 65px 70px 0 70px;
+    height: 311px;
+    overflow: hidden;
+  }
+  .dotSign-left:before, .dotSign-right:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background: #222;
+    border-radius: 100%;
+    top: calc(300px/2);
+    left: -12px;
+    z-index: 9999;
+  }
+  .dotSign-right:before {
+    right: -12px;
+    left: auto;
+  }
+  .schedule-section {
+    padding-top: 72px;
+  }
+  .schedule-section h3 {
+    margin-bottom: 40px;
+  }
+  .schedule-section .schedule-item:hover .schedule-images:before {
+    display: block;
+  }
+  .schedule-section .schedule-item-description {
+    min-height: 215px;
+  }
+  .schedule-section .schedule-list {
+    margin-bottom: 55px;
+  }
+  .schedule-section .middle-list, .schedule-section .bottom-list {
+    margin-top: -80px;
+  }
+  .schedule-section .schedule-images {
+    margin-bottom: 20px;
+  }
+  .schedule-section .schedule-images:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #fff;
+    background-color: #fd6610;
+    border-radius: 100%;
+    padding: 0 17px;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    display: none;
+  }
+  .tesimonial-item {
+    height: 760px;
+    overflow: hidden;
+  }
+  .tesimonial-name {
+    height: 88px;
+    overflow: hidden;
+  }
+  .testimonial-content {
+    height: 160px;
+    overflow: hidden;
+  }
+  .faq-section {
+    padding-top: 65px;
+    padding-bottom: 100px;
+  }
+  .faq-section h3 {
+    margin-bottom: 100px;
+  }
+  .faq-section .faq-more {
+    margin-top: 60px;
+  }
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .intro-section .intro-section-wrapper {
+    padding-bottom: 35px;
+  }
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #222;
+}
+
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 9999999999;
+}
+
+.loader .header {
+  animation: animatedBackground 5s linear infinite;
+}
+
+.loader .header .animation-promo {
+  margin-top: 120px;
+}
+
+.loader .header .animation-promo img {
+  max-width: 313px;
+  position: relative;
+  animation: flyingBalloon 2s linear infinite;
+}
+
+.loader .animation-text {
+  margin-top: 250px;
+}
+
+.loader .animation-text h2 {
+  font-size: 70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.9em;
+}
+
+.loader .animation-text h2:before {
+  content: attr(data-content);
+  color: #fd6610;
+  max-width: 5em;
+  animation: loading 3s infinite;
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.header {
+  background-image: url("../images/head-bg.jpg");
+  -webkit-background-image: url("../images/head-bg.jpg");
+  -o-background-image: url("../images/head-bg.html");
+  -moz-background-image: url("../images/head-bg.html");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+.header form {
+  background-color: rgba(15, 83, 162, 0.2);
+  padding-bottom: 15px;
+}
+
+.header form legend {
+  text-align: center;
+  color: #fd6610;
+  text-transform: uppercase;
+  border-color: #fd6610;
+  font-weight: bold;
+}
+
+.header form .form-group {
+  padding: 0 15px;
+}
+
+.header form .form-control {
+  border-radius: 0;
+  border-color: #222;
+  box-shadow: none;
+  font-size: 18px;
+  padding: 5px 12px;
+}
+
+.header form .register-form-submit {
+  font-size: 18px;
+}
+
+.main-navigation {
+  background: #fbf9fc;
+}
+
+.main-navigation .navbar .navbar-brand {
+  max-width: 150px;
+}
+
+.main-navigation .navbar .navbar-nav li a {
+  color: #222;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main-navigation .navbar .navbar-nav li a:hover {
+  color: #fd6610;
+}
+
+.main-navigation .navbar .navbar-nav .register-link a {
+  color: #fd6610;
+}
+
+section h3 {
+  text-shadow: 0 2px 2px rgba(0, 1, 1, 0.1);
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.intro-section {
+  background: #e1e1e1;
+}
+
+.intro-section .benefit {
+  border-bottom: 1px solid #272727;
+}
+
+.intro-section .intro-section-wrapper {
+  padding-top: 60px;
+}
+
+.job-opportunity-wrapper {
+  background: #272727;
+  color: #fff;
+}
+
+.job-opportunity-wrapper .job-opportunity-intro {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.job-opportunity-wrapper .job-opportunity-item-title {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.benefit-wrapper {
+  background: #272727;
+  color: #fff;
+}
+
+.benefit-wrapper .benefit-item {
+  margin-bottom: 15px;
+}
+
+.benefit-wrapper .benefit-item:last-child {
+  margin-bottom: 0;
+}
+
+.benefit-wrapper .benefit-item .media-heading {
+  font-weight: bold;
+}
+
+.section-button-register {
+  color: #222;
+  border-color: #222;
+}
+
+.section-button-register:hover {
+  color: #fff;
+  background: #fd6610;
+}
+
+.schedule-section {
+  background-image: url("../images/cloud.png");
+  -moz-background-image: url("../images/cloud.png");
+  -o-background-image: url("../images/cloud.png");
+  -webkit-background-image: url("../images/cloud.png");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-color: #e1e1e1;
+}
+
+.schedule-section .schedule-item-description {
+  border-radius: 15px;
+  background: rgba(180, 181, 181, 0.6);
+  padding: 15px;
+}
+
+.schedule-section .schedule-item-description .schedule-item-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fd6610;
+}
+
+.schedule-section .section-button-register {
+  margin-top: 115px;
+  margin-bottom: 60px;
+}
+
+.testimonial-section {
+  background: #e1e1e1;
+  padding-bottom: 25px;
+}
+
+.testimonial-section .testimonial-item {
+  color: #fff;
+  padding-top: 140px;
+  padding-bottom: 25px;
+  font-size: 13px;
+}
+
+.testimonial-section .testimonial-item:nth-child(1) {
+  background-image: url("../images/hoc-sinh/DeveloperExhaustion.jpg");
+  -moz-background-image: url("../images/hoc-sinh/DeveloperExhaustion.jpg");
+  -o-background-image: url("../images/hoc-sinh/DeveloperExhaustion.jpg");
+  -webkit-background-image: url("../images/hoc-sinh/DeveloperExhaustion.jpg");
+  background-size: auto 100%;
+  background-position: top right;
+}
+
+.testimonial-section .testimonial-item:nth-child(2) {
+  background-image: url("../images/hoc-sinh/innovative-technology.jpg");
+  -moz-background-image: url("../images/hoc-sinh/innovative-technology.jpg");
+  -o-background-image: url("../images/hoc-sinh/innovative-technology.jpg");
+  -webkit-background-image: url("../images/hoc-sinh/innovative-technology.jpg");
+  background-size: auto 100%;
+  background-position: top center;
+}
+
+.testimonial-section .testimonial-item:nth-child(3) {
+  background-image: url("../images/hoc-sinh/Love-Is-Key-Of-Heart-Wallpaper.jpg");
+  -moz-background-image: url("../images/hoc-sinh/Love-Is-Key-Of-Heart-Wallpaper.jpg");
+  -o-background-image: url("../images/hoc-sinh/Love-Is-Key-Of-Heart-Wallpaper.jpg");
+  -webkit-background-image: url("../images/hoc-sinh/Love-Is-Key-Of-Heart-Wallpaper.jpg");
+  background-size: auto 100%;
+  background-position: top left 20%;
+}
+
+.testimonial-section .testimonial-item:nth-child(4) {
+  background-image: url("../images/hoc-sinh/time2.jpg");
+  -moz-background-image: url("../images/hoc-sinh/time2.jpg");
+  -o-background-image: url("../images/hoc-sinh/time2.jpg");
+  -webkit-background-image: url("../images/hoc-sinh/time2.jpg");
+  background-size: auto 100%;
+  background-position: bottom center;
+}
+
+.testimonial-section .testimonial-item .testimonial-detail, .testimonial-section .testimonial-item .testimonial-avatar {
+  z-index: 99999;
+  position: relative;
+}
+
+.testimonial-section .testimonial-item .testimonial-avatar {
+  margin-bottom: 25px;
+}
+
+.testimonial-section .testimonial-item .tesimonial-name {
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  margin-bottom: 15px;
+}
+
+.testimonial-section .testimonial-item .testimonial-content {
+  margin-bottom: 20px;
+}
+
+.faq-section {
+  background-image: url("../images/hoc-sinh/faq-bg.jpg");
+  -moz-background-image: url("../images/hoc-sinh/faq-bg.jpg");
+  -o-background-image: url("../images/hoc-sinh/faq-bg.jpg");
+  -webkit-background-image: url("../images/hoc-sinh/faq-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.faq-more {
+  color: #e1e1e1;
+  border-color: #fff;
+}
+
+.footer-content .nav li a {
+  padding: 3px 0 3px 0;
+  color: #222;
+  text-decoration: underline;
+}
+
+.footer-content .nav li a:hover {
+  background: none;
+  color: #fd6610;
+}
+
+.footer {
+  background-image: url("../images/hoc-sinh/dark-cloud.png");
+  -moz-background-image: url("../images/hoc-sinh/dark-cloud.png");
+  -o-background-image: url("../images/hoc-sinh/dark-cloud.png");
+  -webkit-background-image: url("../images/hoc-sinh/dark-cloud.png");
+  background-position: center bottom 110%;
+  background-repeat: repeat-x;
+  background-color: #fbf9fc;
+}
+
+.footer .footer-logo {
+  max-width: 200px;
+  margin-left: 15px;
+}
+
+.footer .footer-head {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.testimonial-link {
+  color: #fff;
+  font-size: 30px;
+  padding: 0 14px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+
+.testimonial-link:hover {
+  background-color: #fd6610;
+  color: #fff;
+}
+
+.faq-item {
+  perspective: 1000px;
+  /* flip the pane when hovered */
+}
+
+.faq-item:hover .flipper, .faq-item.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front {
+  backface-visibility: hidden;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+
+.effectscale {
+  border: none;
+  margin: 0 auto;
+}
+.effectscale:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}

@@ -1,0 +1,1 @@
+!function(){if(void 0===window.ADS_CPA_CHECKER){var t=document.createElement("script");t.setAttribute("async","true"),t.setAttribute("type","text/javascript"),t.setAttribute("src","../../../static.amcdn.vn/cpa/core/tp2_core.mina18a.js?t="+(new Date).getTime());var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}}();
